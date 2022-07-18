@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import Home from '../../views/Home.vue'
+import Home from '../Home.vue'
 
 describe('Home.vue', () => {
   it('Renders Home page', () => {
@@ -18,7 +18,6 @@ describe('Home.vue', () => {
   
     const wrapper = mount(Home as any, {
       props: {
-        isAuthenticated: true,
       },
       global: {
         mocks: {

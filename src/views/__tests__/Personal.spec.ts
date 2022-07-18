@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import Personal from '../../views/Personal.vue'
+import Personal from '../Personal.vue'
 
 describe('Personal.vue', () => {
   it('Renders Personal page', () => {

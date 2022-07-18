@@ -36,12 +36,14 @@
       </div>
       <div class="mt-16 grid grid-cols-2 gap-4">
         <button
+          id="back"
           class="py-2 px-8 border border-transparent shadow-sm text-md font-medium rounded-md text-black bg-white border-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-100"
           @click="goBack"
         >
           Back
         </button>
         <button
+          id="next"
           class="py-2 px-8 border border-transparent shadow-sm text-md font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
           @click="goNext"
         >
