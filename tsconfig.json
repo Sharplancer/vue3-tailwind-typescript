@@ -4,11 +4,23 @@
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "experimentalDecorators": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "jsx": "preserve",
     "lib": ["dom", "esnext"],
-    "types": ["vite/client"]
+    "types": ["jest"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
   "exclude": ["node_modules", "dist", "public"]
 }
