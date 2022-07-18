@@ -11,6 +11,7 @@
 - Tailwind CSS
 - Simple store with global state
 - Vue Router
+- Unit test Jest
 - ESLint
 
 ## Project setup and usage
